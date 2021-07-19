@@ -19,7 +19,7 @@ class TravelSeeder extends Seeder
             $newTravel = new Travel;
             $newTravel->destination = $faker->address();
             $newTravel->city = $faker->city();
-            $newTravel->days = $faker->random_int(1, 5);
+            $newTravel->days = $faker->numberBetween(1, 5);
             $newTravel->description = $faker->paragraph( 3, true);
             $newTravel->price = $faker->randomFloat(2, 100, 500);
             $newTravel->save();
