@@ -45,11 +45,32 @@ html, body {
     margin-bottom: 30px;
 }
 
-.container {
+.container-mio {
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     img {
         margin-top: 3rem;
         width: 40%;
     }
 }
+
+// sezione travel
+
+.travels {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+        text-decoration: none;
+        color: rgb(4, 11, 49);
+        width: 30%;
+        .travel {
+            margin: 1rem;
+            background-color: blanchedalmond;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+    }
+}
+    

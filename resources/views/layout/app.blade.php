@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container-mio">
                 @yield('main')
             </div>
         </div>

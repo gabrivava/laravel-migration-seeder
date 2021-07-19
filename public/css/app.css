@@ -45,13 +45,33 @@ body {
   margin-bottom: 30px;
 }
 
-.container {
+.container-mio {
+  width: 80%;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.container img {
+.container-mio img {
   margin-top: 3rem;
   width: 40%;
+}
+
+.travels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.travels a {
+  text-decoration: none;
+  color: #040b31;
+  width: 30%;
+}
+
+.travels a .travel {
+  margin: 1rem;
+  background-color: blanchedalmond;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
